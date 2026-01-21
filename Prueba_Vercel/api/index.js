@@ -9,7 +9,7 @@ let items = [
   { id: 2, name: "beta" },
 ];
 
-app.get("/", (_req, res) => {
+app.get("/time", (_req, res) => {
   res.status(200).json({
     ok: true,
     service: "express-api",
