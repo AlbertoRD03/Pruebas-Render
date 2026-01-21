@@ -2,6 +2,9 @@
   "name": "vercel-express-api",
   "private": true,
   "type": "module",
+  "scripts": {
+    "dev": "node api/index.js"
+  },
   "dependencies": {
     "express": "^4.19.2"
   }
